@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="35.2" viewBox="0 0 32 35.2">
+  <g id="notes" transform="translate(-2 -1)">
+    <path id="Path_18898" data-name="Path 18898" d="M6,6.6A1.6,1.6,0,0,1,7.6,5h16a1.6,1.6,0,1,1,0,3.2H7.6A1.6,1.6,0,0,1,6,6.6Z" transform="translate(2.4 2.4)"/>
+    <path id="Path_18899" data-name="Path 18899" d="M6,10.6A1.6,1.6,0,0,1,7.6,9h16a1.6,1.6,0,0,1,0,3.2H7.6A1.6,1.6,0,0,1,6,10.6Z" transform="translate(2.4 4.8)"/>
+    <path id="Path_18900" data-name="Path 18900" d="M7.6,13a1.6,1.6,0,0,0,0,3.2h16a1.6,1.6,0,1,0,0-3.2Z" transform="translate(2.4 7.2)"/>
+    <path id="Path_18901" data-name="Path 18901" d="M6,18.6A1.6,1.6,0,0,1,7.6,17H14a1.6,1.6,0,1,1,0,3.2H7.6A1.6,1.6,0,0,1,6,18.6Z" transform="translate(2.4 9.6)"/>
+    <path id="Path_18902" data-name="Path 18902" d="M2,5.8A4.8,4.8,0,0,1,6.8,1H29.2A4.8,4.8,0,0,1,34,5.8V31.4a4.8,4.8,0,0,1-4.8,4.8H6.8A4.8,4.8,0,0,1,2,31.4ZM6.8,4.2H29.2a1.6,1.6,0,0,1,1.6,1.6V31.4A1.6,1.6,0,0,1,29.2,33H6.8a1.6,1.6,0,0,1-1.6-1.6V5.8A1.6,1.6,0,0,1,6.8,4.2Z" fill-rule="evenodd"/>
+  </g>
+</svg>

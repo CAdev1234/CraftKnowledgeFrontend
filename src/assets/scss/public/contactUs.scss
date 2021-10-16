@@ -1,0 +1,149 @@
+@import "assets/scss/variable.scss";
+
+.contactus-wrapper {
+  .heading {
+    font-family: "montserrat-bold";
+    font-size: 42px;
+    line-height: 72px;
+    @media screen and (max-width: 1399.99px) {
+      font-size: 30px;
+      line-height: 50px;
+    }
+    @media screen and (max-width: 991.99px) {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .msg {
+    font-family: "montserrat-medium";
+    font-size: 36px;
+    line-height: 72px;
+    @media screen and (max-width: 1399.99px) {
+      font-size: 25px;
+      line-height: 50px;
+    }
+    @media screen and (max-width: 575.99px) {
+      line-height: 30px;
+    }
+  }
+
+  .content {
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .contact-info {
+    color: #006980;
+    font-family: "montserrat-semi-bold";
+    font-size: 24px;
+    line-height: 35px;
+    @media screen and (max-width: 1399.99px) {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    @media screen and (max-width: 991.99px) {
+      margin-bottom: 30px;
+    }
+    @media screen and (max-width: 767.99px) {
+      margin-bottom: 20px;
+    }
+
+    img {
+      height: 18px;
+      width: 18px;
+      margin-top: 5px;
+      margin-right: 10px;
+      @media screen and (max-width: 1399.99px) {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+
+  .contact-form {
+    border: 1.5px solid #006980;
+    border-radius: 10px;
+
+    .form-heading {
+      font-family: "montserrat-bold";
+      font-size: 29px;
+      line-height: 72px;
+      @media screen and (max-width: 1399.99px) {
+        font-size: 23px;
+        line-height: 40px;
+      }
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      height: 54px;
+      border-radius: 5px;
+      background-color: #f1f2f6;
+      padding: 10px;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .input {
+      padding-right: 5px;
+      @media screen and (max-width: 1199.99px) {
+        padding-right: 10px;
+      }
+      @media screen and (max-width: 991.99px) {
+        padding-right: 5px;
+      }
+      @media screen and (max-width: 576.99px) {
+        padding-right: 10px;
+      }
+    }
+
+    textarea {
+      height: 162px;
+    }
+
+    input::placeholder,
+    textarea::placeholder,
+    input,
+    textarea {
+      color: #000000;
+      font-family: "montserrat-semi-bold";
+      font-size: 18px;
+      line-height: 29px;
+      @media screen and (max-width: 1399.99px) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+
+    button {
+      font-family: "montserrat-bold";
+      font-size: 18px;
+      line-height: 29px;
+      font-weight: bolder;
+      background-color: #006980;
+      margin-top: 10px;
+      @media screen and (max-width: 1399.99px) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+
+      &.submit {
+        color: #fff;
+        margin-right: 20px;
+        border: 1px solid #707070;
+      }
+
+      &.clear {
+        color: #006980;
+        background-color: #fff;
+        border: 1px solid #006980;
+      }
+    }
+  }
+}

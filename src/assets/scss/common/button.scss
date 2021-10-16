@@ -1,0 +1,71 @@
+.primary-btn {
+    background-color: #006980;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 13px 24px;
+    transition: all 0.5s;
+    text-align: center;
+    font-family: "montserrat-semi-bold";
+    cursor: pointer;
+  
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
+  
+    &:hover {
+        background-color: #E59F03;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .prefixIcon {
+      margin-right: 10px;
+    }
+  }
+
+  .secondary-btn  {
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    color: #006980;
+    text-decoration: none;
+    padding: 13px 24px;
+    transition: all 0.5s;
+    text-align: center;
+    font-family: "montserrat-semi-bold";
+    border: 1px solid #006980;
+    cursor: pointer;
+  
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
+  
+    &:hover {
+        background-color: #006980;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+  }
+
+  .icon-btn {
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    color: #2E233D;
+    text-decoration: none;
+    padding: 13px 24px;
+    transition: all 0.5s;
+    text-align: center;
+    border: 1px solid #2E233D;
+    font-family: "montserrat-semi-bold";
+    cursor: pointer;
+  
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
+  }

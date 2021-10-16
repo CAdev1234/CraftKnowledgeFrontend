@@ -1,0 +1,373 @@
+@import 'assets/scss/variable.scss';
+
+.main-header {
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+
+    &.sticky-header {
+        box-shadow: rgba(24, 106, 165, 0.10) 0px 3px 10px;
+    }
+}
+.header-wrapper {
+    // padding: 20px 0 45px;
+    padding: 15px 0;
+
+    @media screen and (max-width: 767px) {
+        // padding: 10px 0;
+        padding: 6px 0;
+    }
+
+    .logo-wraper {
+        @media screen and (max-width: 991px) {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+   .header-right {
+       display: flex;
+       align-items: center;
+
+       @media screen and (max-width: 767px) {
+           justify-content: flex-end;
+       }
+       .Language-select {
+           select {
+               border: 0;
+               font-size: 18px;
+               font-weight: 600;
+               color: $color-primary;
+                margin-right: 25px;
+
+                @media screen and (max-width: 1199px) {
+                    margin-right: 8px;
+                }
+                @media screen and (max-width: 767px) {
+                    display: none;
+                }
+
+               &:focus {
+                   outline: none;
+               }
+           }
+       }
+       .header-links {
+           ul {
+               margin: 0;
+               padding: 0;
+               list-style: none;
+               display: flex;
+               align-items: center;
+           }
+           a {
+               text-decoration: none;
+           }
+           .register {
+               font-size: 16px;
+               font-weight: 600;
+               color: $color-black;
+               @media screen and (max-width: 767px) {
+                display: none;
+            }
+           }
+           .login {
+                font-size: 16px;
+                font-weight: 600;
+                color: #FFFFFF;
+                background-color: $color-primary;
+                border-radius: 10px;
+                display: inline-block;
+                padding: 9px 30px;
+                margin-left: 40px;
+                transition: all 0.5s; 
+                text-align: center;
+
+                @media screen and (max-width: 1399px) {
+                    margin-left: 10px;
+                }
+                @media screen and (max-width: 1199px) {
+                    padding: 9px 16px;
+                }
+                @media screen and (max-width: 767px) {
+                    margin-right: 15px;
+                    padding: 11px 10px;
+                    font-size: 14px;
+                }
+                &:hover {
+                    background-color: #E59F03;
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+           }
+       }
+   }
+   .header-search-wraper {
+       display: flex;
+       align-items: center;
+
+       @media screen and (max-width: 575px) {
+           flex-direction: column;
+       }
+
+       label {
+            font-family: 'montserrat-semi-bold';
+            font-size: 18px;
+            color: $color-black;
+            width: 200px;
+            @media screen and (max-width: 991px) {
+                font-size: 16px;
+                width: 170px;
+            }
+            @media screen and (max-width: 767px) {
+                width: 100%;
+                text-align: center;
+                font-size: 14px;
+            }
+       }
+       .input-group {
+            width: calc(100% - 200px);
+            position: relative;
+            @media screen and (max-width: 991px) {
+                width: calc(100% - 170px);
+            }
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
+
+            input[type="text"] {
+                width: 100%;
+                background: #F1F2F6;
+                border: 1px solid #eeeeee;
+                height: 46px;
+                border-radius: 2px;
+                font-size: 18px;
+                color: $color-black;
+                font-family: 'montserrat-semi-bold';
+                padding: 5px 5px 5px 50px;
+                @media screen and (max-width: 991px) {
+                    font-size: 14px;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+            .search-btn {
+                position: absolute;
+                width: 46px;
+                height: 46px;
+                font-size: 0;
+                border: 0;
+            }
+       }
+   }
+   .container {
+       position: relative;
+   }
+}
+.courses-caregory-menu {
+    padding: 10px 0;
+    // &:hover {
+    .display {
+        display: block;
+    }
+    // }
+}
+.courses-menu-wrap {
+    position: absolute;
+    width: 100%;
+    background: #FFFF;
+    left: 0;
+    top: 116px;
+    border-radius: 12px;
+    border: 1px solid #64968B;
+    display: none;
+
+    &.show {
+        display: block;
+    }
+
+    @media screen and (max-width: 991px) {
+        top: 170px;
+        height: 75vh;
+        overflow-y: auto;
+    }
+    @media screen and (max-width: 767px) {
+        top: 80px;
+    }
+
+    .menu-container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 40px;
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            padding-right: 0;
+        }
+    }
+    .menu-left-wraper {
+        width: 300px;
+        padding: 45px 0 25px;
+        background-color: rgba(223, 244, 241, 0.5);
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
+        }
+
+        h5 {
+            font-family: 'montserrat-bold';
+            color: #000000;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            padding: 0 25px;
+            @media screen and (max-width: 767px) {
+                padding: 0 20px;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            .menu-item {
+                padding: 20px 25px;
+                @media screen and (max-width: 767px) {
+                    padding: 10px 20px;
+                }
+                a {
+                    font-family: 'montserrat-medium';
+                    font-size: 18px;
+                    color: #323638;
+                    text-decoration: none;
+
+                    @media screen and (max-width: 767px) {
+                        font-size: 14px;
+                    }
+                }
+                .submenu-container {
+                    position: absolute;
+                    top: 0;
+                    display: none;
+                    left: 300px;
+                    padding: 45px 25px 25px;
+
+                    @media screen and (max-width: 991px) {
+                        position: static;
+                        padding: 30px 0 20px;
+                    }
+                    @media screen and (max-width: 767px) {
+                        padding: 15px 0;
+                    }
+                    li {
+                        margin-bottom: 20px;
+                        @media screen and (max-width: 767px) {
+                            margin-bottom: 15px;
+                        }
+                        a {
+                            font-size: 20px;
+                            color: #323638;
+                            font-family: 'montserrat-medium';
+                            @media screen and (max-width: 767px) {
+                                font-size: 14px;
+                            }
+
+                            &:hover {
+                                color: $color-primary;
+                            }
+                        }
+                    }
+                    .submenu-inner {
+                        display: flex;
+
+                        @media screen and (max-width: 1199px) {
+                            flex-direction: column;
+                        }
+                    }
+
+                    h5 {
+                        padding: 0;
+                        font-family: 'montserrat-regular';
+                    }
+                    .submenu {
+                        margin-right: 40px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+
+                &:hover {
+                    background-color: #FFFFFF;
+                    .submenu-container {
+                        display: block;
+                    }
+                    a {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+    .menu-right-wraper {
+        width: 350px;
+        padding: 45px 0 25px;
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            padding: 15px;
+        }
+        h5 {
+            font-family: 'montserrat-medium';
+            color: #000000;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            @media screen and (max-width: 767px) {
+                font-size: 16px;
+            }
+        }
+        .course-item {
+            border-radius: 5px;
+            background-color: #EFF9F8;
+            padding: 10px;
+            display: flex;
+            margin-bottom: 15px;
+
+            .icon-wrap {
+                width: 92px;
+                height: 88px;
+                background-color: #DAF7F4;
+            }
+            .text-wrap {
+                width: calc(100% - 92px);
+                padding-left: 15px;
+
+                h4 {
+                    font-size: 18px;
+                    color: #0C1125;
+                    font-family: 'montserrat-medium';
+                    margin-bottom: 5px;
+                    @media screen and (max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    color: #323638;
+                    font-family: 'montserrat-medium';
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

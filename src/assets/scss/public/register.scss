@@ -1,0 +1,32 @@
+.register-wrapper {
+    .register-image-wrapper {
+        justify-content: flex-end;
+        
+        .register-image {
+            width: 80%;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+    }
+
+    .agreement-wrapper {
+        span {
+            text-decoration: none;
+            color: #006980;
+        }
+    }
+
+    .title-text {
+        font-size: 33px;
+        margin-bottom: 45px;
+        font-family: 'montserrat-medium';
+
+        @media screen and (max-width: 1199px) {
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+    }
+}

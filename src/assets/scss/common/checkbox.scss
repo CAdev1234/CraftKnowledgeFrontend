@@ -1,0 +1,31 @@
+.checkbox-wrapper {
+    margin-bottom: 20px;
+
+    .form-check {
+        display: flex;
+        align-items: center;
+
+        .form-check-input {
+            min-width: 24px;
+            min-height: 24px;
+            margin-right: 10px;
+            border-color: #000;
+
+            &:checked {
+                background-color: #fff;
+                border-color: #000;
+                background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='12.923' height='9.231' viewBox='0 0 12.923 9.231'><path id='Path_712' data-name='Path 712' d='M43.847,37.77,37.116,44.5l-3.04-3.04a.923.923,0,0,0-1.305,1.305l3.692,3.692a.923.923,0,0,0,1.305,0l7.385-7.385a.923.923,0,0,0-1.306-1.306Z' transform='translate(-32.5 -37.5)'/></svg>");
+                background-size: initial;
+            }
+
+            &:focus {
+                border-color: #000;
+                box-shadow: none !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,25 @@
+@import "./variable.scss";
+@import "./mixins.scss";
+@import "./helper.scss";
+@import "./fonts.scss";
+@import "~react-tabs/style/react-tabs.css";
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+  font-family: 'montserrat-regular', sans-serif;
+  color: #000;
+}
+
+.root-wrapper {
+  padding-top: 135px;
+
+  @media screen and (max-width: 992px) {
+      padding-top: 210px;
+  }
+  @media screen and (max-width: 767px) {
+      padding-top: 105px;
+  }
+}

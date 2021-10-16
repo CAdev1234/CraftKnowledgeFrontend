@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.059" height="20.736" viewBox="0 0 28.059 20.736">
+  <g id="gb" transform="translate(2.08 1.736)">
+    <g id="Group_9823" data-name="Group 9823">
+      <g id="Group_9822" data-name="Group 9822" transform="translate(-3 -2)">
+        <rect id="Rectangle_166" data-name="Rectangle 166" width="26.413" height="20" rx="4" transform="translate(1.587 1)" fill="#015fbc"/>
+        <path id="Path_2999" data-name="Path 2999" d="M13.263,10.85,2.306,18.81l1.176,1.619,11.482-8.343L27,20.829l1.175-1.618-11.507-8.36L28.979,1.9,27.8.286,14.964,9.614,2.1.264.92,1.882,13.263,10.85Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3000" data-name="Path 3000" d="M13.385,10.446,2.867,2.805l.294-.4,10.518,7.641Zm3.182-1.4L27.085,1.4l.294.4L16.861,9.445l-.294-.4Zm-3.188,3.573L2.86,20.254l-.294-.4,8.659-6.29,1.859-1.351.294.4Zm3.727-.914,10.517,7.641-.294.405L16.812,12.105Z" fill="#e32d2d" fill-rule="evenodd"/>
+        <path id="Path_3001" data-name="Path 3001" d="M17,9V2H13V9H2v4H13v7h4V13H28V9Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3002" data-name="Path 3002" d="M16,10V2H14v8H2.5v2H14v8h2V12H27.5V10Z" fill="#e32d2d" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
